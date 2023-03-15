@@ -45,11 +45,11 @@ public class CountSortObjects {
         return out;
     }
 
-    static class Worker {
-        int id;
-        String name;
-        String phone;
-        int qualification;
+    public static class Worker {
+        public int id;
+        public String name;
+        public String phone;
+        public int qualification;
 
         public Worker(int id, String name, String phone, int qualification) {
             this.id = id;
